@@ -2,42 +2,58 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-12T12:57:42 EST" name="Default suite" finished-at="2025-11-12T13:01:01 EST" duration-ms="199023">
+  <suite started-at="2025-11-18T11:24:20 EST" name="Default suite" finished-at="2025-11-18T11:27:25 EST" duration-ms="184349">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.Runner@4f49f6af]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-11-12T12:57:42 EST" name="Default test" finished-at="2025-11-12T13:01:01 EST" duration-ms="199023">
+    <test started-at="2025-11-18T11:24:20 EST" name="Default test" finished-at="2025-11-18T11:27:25 EST" duration-ms="184349">
       <class name="testRunner.Runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.Runner@4f49f6af]" started-at="2025-11-12T12:57:42 EST" name="setUpClass" finished-at="2025-11-12T12:57:45 EST" duration-ms="3287" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.Runner@4f49f6af]" started-at="2025-11-18T11:24:20 EST" name="setUpClass" finished-at="2025-11-18T11:24:22 EST" duration-ms="1542" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@26457986]]>
+                <![CDATA[org.testng.TestRunner@b5aa65b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.Runner@4f49f6af]" started-at="2025-11-12T12:57:45 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-12T12:59:03 EST" duration-ms="77443" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.Runner@4f49f6af]" started-at="2025-11-18T11:24:22 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-18T11:24:42 EST" duration-ms="19658" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify Home Page Functionality"]]>
+                <![CDATA["Verify Find A Provider Page Functionality"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Home Page"]]>
+                <![CDATA["Find A Provider Page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.Runner@4f49f6af]" started-at="2025-11-12T12:57:45 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-12T13:00:54 EST" duration-ms="188709" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.Runner@4f49f6af]" started-at="2025-11-18T11:24:22 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-18T11:24:40 EST" duration-ms="18169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Find A Provider Page Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Find A Provider Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.Runner@4f49f6af]" started-at="2025-11-18T11:24:22 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-18T11:27:21 EST" duration-ms="179371" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -58,8 +74,8 @@
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='textMsg']' (tried for 50 second(s) with 500 milliseconds interval)
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at utils.CommonMethod.waitForElement(CommonMethod.java:47)
-at utils.CommonMethod.clickOnElement(CommonMethod.java:71)
+at utils.CommonMethod.waitForElement(CommonMethod.java:48)
+at utils.CommonMethod.clickOnElement(CommonMethod.java:72)
 at pages.LoginPage.clkOnTextMsg(LoginPage.java:113)
 at stepDefinations.LoginPageSteps.user_click_on_via_text_message_on_verify_your_identity_page(LoginPageSteps.java:39)
 at ✽.User Click On Via Text Message on Verify Your Identity page(file:///C:/Users/seraj/OneDrive/Documents/MT_Demo_Automation/MT_Demo_Automation/./Features/Login.feature:11)
@@ -69,9 +85,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0dd13f54ea2b1eb8586b38b79505f27a, findElement {value=//button[@id='textMsg'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 141.0.7390.54 (b95610d5c4a5..., userDataDir: C:\Users\seraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:48936}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:48936/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0dd13f54ea2b1eb8586b38b79505f27a
+Command: [bd0e2a1c861dd1d55e75885e80bb6404, findElement {using=xpath, value=//button[@id='textMsg']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 141.0.7390.54 (b95610d5c4a5..., userDataDir: C:\Users\seraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6539}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6539/devtool..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bd0e2a1c861dd1d55e75885e80bb6404
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -95,8 +111,8 @@ at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions
 at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
 at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at utils.CommonMethod.waitForElement(CommonMethod.java:47)
-at utils.CommonMethod.clickOnElement(CommonMethod.java:71)
+at utils.CommonMethod.waitForElement(CommonMethod.java:48)
+at utils.CommonMethod.clickOnElement(CommonMethod.java:72)
 at pages.LoginPage.clkOnTextMsg(LoginPage.java:113)
 at stepDefinations.LoginPageSteps.user_click_on_via_text_message_on_verify_your_identity_page(LoginPageSteps.java:39)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
@@ -138,39 +154,23 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.Runner@4f49f6af]" started-at="2025-11-12T12:57:45 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-12T12:58:10 EST" duration-ms="25349" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.Runner@4f49f6af]" started-at="2025-11-18T11:24:22 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-18T11:25:31 EST" duration-ms="68794" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify Find A Provider Page Functionality"]]>
+                <![CDATA["Verify Home Page Functionality"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Find A Provider Page"]]>
+                <![CDATA["Home Page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.Runner@4f49f6af]" started-at="2025-11-12T12:57:45 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-12T12:58:10 EST" duration-ms="24455" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify Find A Provider Page Functionality"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Find A Provider Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.Runner@4f49f6af]" started-at="2025-11-12T13:00:54 EST" name="tearDownClass" finished-at="2025-11-12T13:01:01 EST" duration-ms="6889" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.Runner@4f49f6af]" started-at="2025-11-18T11:27:21 EST" name="tearDownClass" finished-at="2025-11-18T11:27:25 EST" duration-ms="3373" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

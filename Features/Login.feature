@@ -1,6 +1,6 @@
 Feature: Login Page
   
-  @Smoke
+  @Smoke @Regression
   Scenario Outline: Verify Login Page Functionality
   
     Given User should be on Montana Provider Portal Page
