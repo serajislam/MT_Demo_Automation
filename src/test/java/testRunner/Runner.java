@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
 		// dryRun=true,
 		monochrome = true,
 		// running with single tags
-		//tags = "@Smoke",
+		tags = "@Smoke",
 		
 		//running with both tags.this will run if feature file has both tag
 		//tags = "@Smoke and @Regression",	

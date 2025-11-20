@@ -81,11 +81,13 @@
 			<artifactId>cucumber-testng</artifactId>
 			<version>7.17.0</version>
 		</dependency>
+
+
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>7.8.0</version>
+			<version>7.11.0</version>
 			<scope>test</scope>
 		</dependency>
 
