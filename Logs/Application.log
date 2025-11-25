@@ -1118,3 +1118,475 @@ Session ID: 4c1244ede616210911a6704e2de27f6f
 11-20-2025 12:50:17 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 113 - ::::Active Browser is close::::
 11-20-2025 12:50:18 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 115 - ::::All Browser is quit::::
 11-20-2025 12:50:18 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 116 - ::::Browser closed for thread:::: 42
+11-23-2025 20:25:32 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 53 - ::::Driver launched for thread:::: 42
+11-23-2025 20:25:32 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 53 - ::::Driver launched for thread:::: 40
+11-23-2025 20:25:32 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 53 - ::::Driver launched for thread:::: 41
+11-23-2025 20:25:32 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 22 - ****************LOG STARTING*******************
+11-23-2025 20:25:32 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 22 - ****************LOG STARTING*******************
+11-23-2025 20:25:32 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 22 - ****************LOG STARTING*******************
+11-23-2025 20:25:32 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 23 - Scenario Executing Start :-Verify Find A Provider Page Functionality
+11-23-2025 20:25:32 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 23 - Scenario Executing Start :-Verify Find A Provider Page Functionality
+11-23-2025 20:25:32 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 23 - Scenario Executing Start :-Verify Home Page Functionality
+11-23-2025 20:25:33 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 26 - Application is opended :-Verify Find A Provider Page Functionality
+11-23-2025 20:25:33 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 26 - Application is opended :-Verify Home Page Functionality
+11-23-2025 20:25:36 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 26 - Application is opended :-Verify Find A Provider Page Functionality
+11-23-2025 20:25:37 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 55 - Clicked on Find Provider Page
+11-23-2025 20:25:37 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 55 - Clicked on Find Provider Page
+11-23-2025 20:25:37 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 93 - Clicked on Home Page
+11-23-2025 20:25:37 CommonMethod.java INFO  [TestNG-PoolService-3] base.BaseClass 249 - Fetched text: Home
+11-23-2025 20:25:38 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 105 - Clicked on Contact US Page
+11-23-2025 20:25:38 CommonMethod.java INFO  [TestNG-PoolService-3] base.BaseClass 249 - Fetched text: Contact us
+11-23-2025 20:25:40 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 120 - Clicked on Getting Started Page
+11-23-2025 20:25:42 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 134 - Clicked on FAQs Page
+11-23-2025 20:25:44 CommonMethod.java INFO  [TestNG-PoolService-1] base.BaseClass 249 - Fetched text: Find a provider
+11-23-2025 20:25:45 CommonMethod.java INFO  [TestNG-PoolService-2] base.BaseClass 249 - Fetched text: Find a provider
+11-23-2025 20:25:45 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 67 - Clicked on Select Category filter 
+11-23-2025 20:25:45 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 67 - Clicked on Select Category filter 
+11-23-2025 20:25:46 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 70 - Category Selected 
+11-23-2025 20:25:46 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 70 - Category Selected 
+11-23-2025 20:25:47 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 81 - Clicked on Select Specialty filter 
+11-23-2025 20:25:47 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 81 - Clicked on Select Specialty filter 
+11-23-2025 20:25:47 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 84 - Category Selected 
+11-23-2025 20:25:47 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 84 - Category Selected 
+11-23-2025 20:25:47 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 94 - Clicked on city field
+11-23-2025 20:25:47 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 94 - Clicked on city field
+11-23-2025 20:25:48 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 106 - Clicked on Find Providers 
+11-23-2025 20:25:48 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 106 - Clicked on Find Providers 
+11-23-2025 20:25:48 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 56 - Scenario Finish :- Verify Find A Provider Page Functionality
+11-23-2025 20:25:48 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 56 - Scenario Finish :- Verify Find A Provider Page Functionality
+11-23-2025 20:25:49 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 113 - ::::Active Browser is close::::
+11-23-2025 20:25:49 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 113 - ::::Active Browser is close::::
+11-23-2025 20:25:49 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 115 - ::::All Browser is quit::::
+11-23-2025 20:25:49 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 115 - ::::All Browser is quit::::
+11-23-2025 20:25:49 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 116 - ::::Browser closed for thread:::: 40
+11-23-2025 20:25:49 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 116 - ::::Browser closed for thread:::: 41
+11-23-2025 20:26:33 CommonMethod.java ERROR [TestNG-PoolService-3] base.BaseClass 229 - Could not highlight element: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='templateFind_front']//b[contains(text(),'Find a provider')]"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [76d9dad78b340382496113d3d9ccf6e4, findElement {using=xpath, value=//div[@id='templateFind_front']//b[contains(text(),'Find a provider')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 141.0.7390.54 (b95610d5c4a5..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:19603}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:19603/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 76d9dad78b340382496113d3d9ccf6e4
+11-23-2025 20:26:33 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 144 - Clicked on Find Provider Page
+11-23-2025 20:26:36 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 157 - Clicked on Announcements Page
+11-23-2025 20:26:36 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 175 - Clicked on DPHHS Website Page
+11-23-2025 20:26:37 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 189 - Clicked on DocDNA Page
+11-23-2025 20:26:37 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 56 - Scenario Finish :- Verify Home Page Functionality
+11-23-2025 20:26:37 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 113 - ::::Active Browser is close::::
+11-23-2025 20:26:37 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 115 - ::::All Browser is quit::::
+11-23-2025 20:26:37 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 116 - ::::Browser closed for thread:::: 42
+11-23-2025 20:55:16 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 53 - ::::Driver launched for thread:::: 41
+11-23-2025 20:55:16 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 53 - ::::Driver launched for thread:::: 40
+11-23-2025 20:55:16 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 53 - ::::Driver launched for thread:::: 42
+11-23-2025 20:55:16 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 22 - ****************LOG STARTING*******************
+11-23-2025 20:55:16 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 22 - ****************LOG STARTING*******************
+11-23-2025 20:55:16 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 22 - ****************LOG STARTING*******************
+11-23-2025 20:55:16 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 23 - Scenario Executing Start :-Verify Home Page Functionality
+11-23-2025 20:55:16 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 23 - Scenario Executing Start :-Verify Find A Provider Page Functionality
+11-23-2025 20:55:16 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 23 - Scenario Executing Start :-Verify Find A Provider Page Functionality
+11-23-2025 20:55:20 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 26 - Application is opended :-Verify Find A Provider Page Functionality
+11-23-2025 20:55:22 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 55 - Clicked on Find Provider Page
+11-23-2025 20:55:22 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 26 - Application is opended :-Verify Home Page Functionality
+11-23-2025 20:55:23 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 93 - Clicked on Home Page
+11-23-2025 20:55:23 CommonMethod.java INFO  [TestNG-PoolService-3] base.BaseClass 249 - Fetched text: Home
+11-23-2025 20:55:23 CommonMethod.java INFO  [TestNG-PoolService-1] base.BaseClass 249 - Fetched text: Find a provider
+11-23-2025 20:55:24 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 105 - Clicked on Contact US Page
+11-23-2025 20:55:24 CommonMethod.java INFO  [TestNG-PoolService-3] base.BaseClass 249 - Fetched text: Contact us
+11-23-2025 20:55:24 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 67 - Clicked on Select Category filter 
+11-23-2025 20:55:24 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 70 - Category Selected 
+11-23-2025 20:55:25 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 81 - Clicked on Select Specialty filter 
+11-23-2025 20:55:25 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 84 - Category Selected 
+11-23-2025 20:55:26 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 94 - Clicked on city field
+11-23-2025 20:55:26 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 120 - Clicked on Getting Started Page
+11-23-2025 20:55:27 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 106 - Clicked on Find Providers 
+11-23-2025 20:55:27 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 56 - Scenario Finish :- Verify Find A Provider Page Functionality
+11-23-2025 20:55:27 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 113 - ::::Active Browser is close::::
+11-23-2025 20:55:28 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 115 - ::::All Browser is quit::::
+11-23-2025 20:55:28 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 116 - ::::Browser closed for thread:::: 40
+11-23-2025 20:55:28 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 26 - Application is opended :-Verify Find A Provider Page Functionality
+11-23-2025 20:55:28 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 55 - Clicked on Find Provider Page
+11-23-2025 20:55:29 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 134 - Clicked on FAQs Page
+11-23-2025 20:55:29 CommonMethod.java INFO  [TestNG-PoolService-2] base.BaseClass 249 - Fetched text: Find a provider
+11-23-2025 20:55:30 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 67 - Clicked on Select Category filter 
+11-23-2025 20:55:31 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 70 - Category Selected 
+11-23-2025 20:55:32 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 81 - Clicked on Select Specialty filter 
+11-23-2025 20:55:32 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 84 - Category Selected 
+11-23-2025 20:55:32 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 94 - Clicked on city field
+11-23-2025 20:55:33 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 106 - Clicked on Find Providers 
+11-23-2025 20:55:33 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 56 - Scenario Finish :- Verify Find A Provider Page Functionality
+11-23-2025 20:55:33 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 113 - ::::Active Browser is close::::
+11-23-2025 20:55:34 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 115 - ::::All Browser is quit::::
+11-23-2025 20:55:34 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 116 - ::::Browser closed for thread:::: 41
+11-23-2025 20:56:20 CommonMethod.java ERROR [TestNG-PoolService-3] base.BaseClass 229 - Could not highlight element: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='templateFind_front']//b[contains(text(),'Find a provider')]"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [63b12b79d8c3dfcc6fe0dd686a14f6e1, findElement {using=xpath, value=//div[@id='templateFind_front']//b[contains(text(),'Find a provider')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 141.0.7390.54 (b95610d5c4a5..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51736}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51736/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63b12b79d8c3dfcc6fe0dd686a14f6e1
+11-23-2025 20:56:20 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 144 - Clicked on Find Provider Page
+11-23-2025 20:56:22 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 157 - Clicked on Announcements Page
+11-23-2025 20:56:22 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 175 - Clicked on DPHHS Website Page
+11-23-2025 20:56:23 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 189 - Clicked on DocDNA Page
+11-23-2025 20:56:23 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 56 - Scenario Finish :- Verify Home Page Functionality
+11-23-2025 20:56:23 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 113 - ::::Active Browser is close::::
+11-23-2025 20:56:23 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 115 - ::::All Browser is quit::::
+11-23-2025 20:56:23 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 116 - ::::Browser closed for thread:::: 42
+11-23-2025 20:59:03 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 53 - ::::Driver launched for thread:::: 41
+11-23-2025 20:59:03 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 53 - ::::Driver launched for thread:::: 42
+11-23-2025 20:59:03 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 22 - ****************LOG STARTING*******************
+11-23-2025 20:59:03 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 22 - ****************LOG STARTING*******************
+11-23-2025 20:59:03 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 23 - Scenario Executing Start :-Verify Find A Provider Page Functionality
+11-23-2025 20:59:03 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 23 - Scenario Executing Start :-Verify Home Page Functionality
+11-23-2025 20:59:03 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 53 - ::::Driver launched for thread:::: 40
+11-23-2025 20:59:03 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 22 - ****************LOG STARTING*******************
+11-23-2025 20:59:03 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 23 - Scenario Executing Start :-Verify Find A Provider Page Functionality
+11-23-2025 20:59:03 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 26 - Application is opended :-Verify Home Page Functionality
+11-23-2025 20:59:07 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 26 - Application is opended :-Verify Find A Provider Page Functionality
+11-23-2025 20:59:08 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 55 - Clicked on Find Provider Page
+11-23-2025 20:59:08 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 26 - Application is opended :-Verify Find A Provider Page Functionality
+11-23-2025 20:59:09 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 55 - Clicked on Find Provider Page
+11-23-2025 20:59:09 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 93 - Clicked on Home Page
+11-23-2025 20:59:10 CommonMethod.java INFO  [TestNG-PoolService-3] base.BaseClass 249 - Fetched text: Home
+11-23-2025 20:59:10 CommonMethod.java INFO  [TestNG-PoolService-2] base.BaseClass 249 - Fetched text: Find a provider
+11-23-2025 20:59:10 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 105 - Clicked on Contact US Page
+11-23-2025 20:59:10 CommonMethod.java INFO  [TestNG-PoolService-3] base.BaseClass 249 - Fetched text: Contact us
+11-23-2025 20:59:10 CommonMethod.java INFO  [TestNG-PoolService-1] base.BaseClass 249 - Fetched text: Find a provider
+11-23-2025 20:59:11 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 67 - Clicked on Select Category filter 
+11-23-2025 20:59:11 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 67 - Clicked on Select Category filter 
+11-23-2025 20:59:11 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 70 - Category Selected 
+11-23-2025 20:59:11 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 70 - Category Selected 
+11-23-2025 20:59:12 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 81 - Clicked on Select Specialty filter 
+11-23-2025 20:59:12 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 81 - Clicked on Select Specialty filter 
+11-23-2025 20:59:12 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 84 - Category Selected 
+11-23-2025 20:59:12 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 84 - Category Selected 
+11-23-2025 20:59:13 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 94 - Clicked on city field
+11-23-2025 20:59:13 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 94 - Clicked on city field
+11-23-2025 20:59:14 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 106 - Clicked on Find Providers 
+11-23-2025 20:59:14 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 56 - Scenario Finish :- Verify Find A Provider Page Functionality
+11-23-2025 20:59:14 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 106 - Clicked on Find Providers 
+11-23-2025 20:59:14 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 56 - Scenario Finish :- Verify Find A Provider Page Functionality
+11-23-2025 20:59:14 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 120 - Clicked on Getting Started Page
+11-23-2025 20:59:14 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 113 - ::::Active Browser is close::::
+11-23-2025 20:59:14 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 113 - ::::Active Browser is close::::
+11-23-2025 20:59:14 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 115 - ::::All Browser is quit::::
+11-23-2025 20:59:14 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 116 - ::::Browser closed for thread:::: 41
+11-23-2025 20:59:14 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 115 - ::::All Browser is quit::::
+11-23-2025 20:59:14 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 116 - ::::Browser closed for thread:::: 40
+11-23-2025 20:59:17 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 134 - Clicked on FAQs Page
+11-23-2025 21:00:08 CommonMethod.java ERROR [TestNG-PoolService-3] base.BaseClass 229 - Could not highlight element: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='templateFind_front']//b[contains(text(),'Find a provider')]"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9dd6b142a2aa1f03656589673a0b5dd8, findElement {value=//div[@id='templateFind_front']//b[contains(text(),'Find a provider')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 141.0.7390.54 (b95610d5c4a5..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:17048}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:17048/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9dd6b142a2aa1f03656589673a0b5dd8
+11-23-2025 21:00:08 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 144 - Clicked on Find Provider Page
+11-23-2025 21:00:10 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 157 - Clicked on Announcements Page
+11-23-2025 21:00:10 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 175 - Clicked on DPHHS Website Page
+11-23-2025 21:00:11 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 189 - Clicked on DocDNA Page
+11-23-2025 21:00:11 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 56 - Scenario Finish :- Verify Home Page Functionality
+11-23-2025 21:00:11 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 113 - ::::Active Browser is close::::
+11-23-2025 21:00:11 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 115 - ::::All Browser is quit::::
+11-23-2025 21:00:11 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 116 - ::::Browser closed for thread:::: 42
+11-23-2025 21:25:50 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 53 - ::::Driver launched for thread:::: 40
+11-23-2025 21:25:50 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 53 - ::::Driver launched for thread:::: 42
+11-23-2025 21:25:50 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 53 - ::::Driver launched for thread:::: 41
+11-23-2025 21:25:50 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 22 - ****************LOG STARTING*******************
+11-23-2025 21:25:50 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 22 - ****************LOG STARTING*******************
+11-23-2025 21:25:50 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 22 - ****************LOG STARTING*******************
+11-23-2025 21:25:50 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 23 - Scenario Executing Start :-Verify Find A Provider Page Functionality
+11-23-2025 21:25:50 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 23 - Scenario Executing Start :-Verify Home Page Functionality
+11-23-2025 21:25:50 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 23 - Scenario Executing Start :-Verify Find A Provider Page Functionality
+11-23-2025 21:25:50 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 26 - Application is opended :-Verify Find A Provider Page Functionality
+11-23-2025 21:25:53 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 26 - Application is opended :-Verify Home Page Functionality
+11-23-2025 21:25:54 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 93 - Clicked on Home Page
+11-23-2025 21:25:54 CommonMethod.java INFO  [TestNG-PoolService-3] base.BaseClass 249 - Fetched text: Home
+11-23-2025 21:25:55 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 105 - Clicked on Contact US Page
+11-23-2025 21:25:55 CommonMethod.java INFO  [TestNG-PoolService-3] base.BaseClass 249 - Fetched text: Contact us
+11-23-2025 21:25:55 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 26 - Application is opended :-Verify Find A Provider Page Functionality
+11-23-2025 21:25:56 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 55 - Clicked on Find Provider Page
+11-23-2025 21:25:57 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 120 - Clicked on Getting Started Page
+11-23-2025 21:25:57 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 55 - Clicked on Find Provider Page
+11-23-2025 21:25:59 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 134 - Clicked on FAQs Page
+11-23-2025 21:25:59 CommonMethod.java INFO  [TestNG-PoolService-1] base.BaseClass 249 - Fetched text: Find a provider
+11-23-2025 21:26:00 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 67 - Clicked on Select Category filter 
+11-23-2025 21:26:00 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 70 - Category Selected 
+11-23-2025 21:26:01 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 81 - Clicked on Select Specialty filter 
+11-23-2025 21:26:01 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 84 - Category Selected 
+11-23-2025 21:26:02 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 94 - Clicked on city field
+11-23-2025 21:26:03 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 106 - Clicked on Find Providers 
+11-23-2025 21:26:03 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 56 - Scenario Finish :- Verify Find A Provider Page Functionality
+11-23-2025 21:26:03 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 113 - ::::Active Browser is close::::
+11-23-2025 21:26:03 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 115 - ::::All Browser is quit::::
+11-23-2025 21:26:03 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 116 - ::::Browser closed for thread:::: 40
+11-23-2025 21:26:07 CommonMethod.java INFO  [TestNG-PoolService-2] base.BaseClass 249 - Fetched text: Find a provider
+11-23-2025 21:26:08 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 67 - Clicked on Select Category filter 
+11-23-2025 21:26:08 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 70 - Category Selected 
+11-23-2025 21:26:09 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 81 - Clicked on Select Specialty filter 
+11-23-2025 21:26:09 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 84 - Category Selected 
+11-23-2025 21:26:10 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 94 - Clicked on city field
+11-23-2025 21:26:11 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 106 - Clicked on Find Providers 
+11-23-2025 21:26:11 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 56 - Scenario Finish :- Verify Find A Provider Page Functionality
+11-23-2025 21:26:11 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 113 - ::::Active Browser is close::::
+11-23-2025 21:26:11 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 115 - ::::All Browser is quit::::
+11-23-2025 21:26:11 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 116 - ::::Browser closed for thread:::: 41
+11-23-2025 21:26:50 CommonMethod.java ERROR [TestNG-PoolService-3] base.BaseClass 229 - Could not highlight element: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='templateFind_front']//b[contains(text(),'Find a provider')]"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5251db63b253a7c989271da5a2680954, findElement {using=xpath, value=//div[@id='templateFind_front']//b[contains(text(),'Find a provider')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 141.0.7390.54 (b95610d5c4a5..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39992}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:39992/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5251db63b253a7c989271da5a2680954
+11-23-2025 21:26:50 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 144 - Clicked on Find Provider Page
+11-23-2025 21:26:52 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 157 - Clicked on Announcements Page
+11-23-2025 21:26:52 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 175 - Clicked on DPHHS Website Page
+11-23-2025 21:26:53 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 189 - Clicked on DocDNA Page
+11-23-2025 21:26:53 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 56 - Scenario Finish :- Verify Home Page Functionality
+11-23-2025 21:26:53 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 113 - ::::Active Browser is close::::
+11-23-2025 21:26:53 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 115 - ::::All Browser is quit::::
+11-23-2025 21:26:53 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 116 - ::::Browser closed for thread:::: 42
+11-23-2025 21:36:01 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 53 - ::::Driver launched for thread:::: 42
+11-23-2025 21:36:01 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 53 - ::::Driver launched for thread:::: 41
+11-23-2025 21:36:01 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 53 - ::::Driver launched for thread:::: 40
+11-23-2025 21:36:01 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 22 - ****************LOG STARTING*******************
+11-23-2025 21:36:01 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 22 - ****************LOG STARTING*******************
+11-23-2025 21:36:01 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 22 - ****************LOG STARTING*******************
+11-23-2025 21:36:01 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 23 - Scenario Executing Start :-Verify Home Page Functionality
+11-23-2025 21:36:01 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 23 - Scenario Executing Start :-Verify Find A Provider Page Functionality
+11-23-2025 21:36:01 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 23 - Scenario Executing Start :-Verify Find A Provider Page Functionality
+11-23-2025 21:36:07 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 26 - Application is opended :-Verify Home Page Functionality
+11-23-2025 21:36:07 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 26 - Application is opended :-Verify Find A Provider Page Functionality
+11-23-2025 21:36:07 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 26 - Application is opended :-Verify Find A Provider Page Functionality
+11-23-2025 21:36:08 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 55 - Clicked on Find Provider Page
+11-23-2025 21:36:08 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 93 - Clicked on Home Page
+11-23-2025 21:36:08 CommonMethod.java INFO  [TestNG-PoolService-3] base.BaseClass 249 - Fetched text: Home
+11-23-2025 21:36:09 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 55 - Clicked on Find Provider Page
+11-23-2025 21:36:09 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 105 - Clicked on Contact US Page
+11-23-2025 21:36:09 CommonMethod.java INFO  [TestNG-PoolService-3] base.BaseClass 249 - Fetched text: Contact us
+11-23-2025 21:36:09 CommonMethod.java INFO  [TestNG-PoolService-2] base.BaseClass 249 - Fetched text: Find a provider
+11-23-2025 21:36:10 CommonMethod.java INFO  [TestNG-PoolService-1] base.BaseClass 249 - Fetched text: Find a provider
+11-23-2025 21:36:10 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 67 - Clicked on Select Category filter 
+11-23-2025 21:36:11 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 70 - Category Selected 
+11-23-2025 21:36:11 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 67 - Clicked on Select Category filter 
+11-23-2025 21:36:11 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 70 - Category Selected 
+11-23-2025 21:36:11 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 81 - Clicked on Select Specialty filter 
+11-23-2025 21:36:12 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 120 - Clicked on Getting Started Page
+11-23-2025 21:36:12 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 84 - Category Selected 
+11-23-2025 21:36:12 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 81 - Clicked on Select Specialty filter 
+11-23-2025 21:36:12 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 84 - Category Selected 
+11-23-2025 21:36:12 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 94 - Clicked on city field
+11-23-2025 21:36:13 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 94 - Clicked on city field
+11-23-2025 21:36:13 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 106 - Clicked on Find Providers 
+11-23-2025 21:36:13 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 56 - Scenario Finish :- Verify Find A Provider Page Functionality
+11-23-2025 21:36:14 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 113 - ::::Active Browser is close::::
+11-23-2025 21:36:15 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 115 - ::::All Browser is quit::::
+11-23-2025 21:36:15 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 116 - ::::Browser closed for thread:::: 41
+11-23-2025 21:36:15 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 106 - Clicked on Find Providers 
+11-23-2025 21:36:15 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 56 - Scenario Finish :- Verify Find A Provider Page Functionality
+11-23-2025 21:36:15 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 134 - Clicked on FAQs Page
+11-23-2025 21:36:15 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 113 - ::::Active Browser is close::::
+11-23-2025 21:36:15 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 115 - ::::All Browser is quit::::
+11-23-2025 21:36:15 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 116 - ::::Browser closed for thread:::: 40
+11-23-2025 21:37:06 CommonMethod.java ERROR [TestNG-PoolService-3] base.BaseClass 229 - Could not highlight element: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='templateFind_front']//b[contains(text(),'Find a provider')]"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [269494827ed87117dfac230638702113, findElement {value=//div[@id='templateFind_front']//b[contains(text(),'Find a provider')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 141.0.7390.54 (b95610d5c4a5..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6830}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6830/devtool..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 269494827ed87117dfac230638702113
+11-23-2025 21:37:06 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 144 - Clicked on Find Provider Page
+11-23-2025 21:37:09 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 157 - Clicked on Announcements Page
+11-23-2025 21:37:09 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 175 - Clicked on DPHHS Website Page
+11-23-2025 21:37:10 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 189 - Clicked on DocDNA Page
+11-23-2025 21:37:10 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 56 - Scenario Finish :- Verify Home Page Functionality
+11-23-2025 21:37:10 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 113 - ::::Active Browser is close::::
+11-23-2025 21:37:10 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 115 - ::::All Browser is quit::::
+11-23-2025 21:37:10 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 116 - ::::Browser closed for thread:::: 42
+11-24-2025 12:18:48 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 53 - ::::Driver launched for thread:::: 41
+11-24-2025 12:18:48 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 53 - ::::Driver launched for thread:::: 40
+11-24-2025 12:18:48 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 53 - ::::Driver launched for thread:::: 42
+11-24-2025 12:18:48 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 22 - ****************LOG STARTING*******************
+11-24-2025 12:18:48 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 22 - ****************LOG STARTING*******************
+11-24-2025 12:18:48 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 22 - ****************LOG STARTING*******************
+11-24-2025 12:18:48 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 23 - Scenario Executing Start :-Verify Home Page Functionality
+11-24-2025 12:18:48 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 23 - Scenario Executing Start :-Verify Find A Provider Page Functionality
+11-24-2025 12:18:48 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 23 - Scenario Executing Start :-Verify Find A Provider Page Functionality
+11-24-2025 12:18:49 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 26 - Application is opended :-Verify Find A Provider Page Functionality
+11-24-2025 12:18:52 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 26 - Application is opended :-Verify Find A Provider Page Functionality
+11-24-2025 12:18:53 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 26 - Application is opended :-Verify Home Page Functionality
+11-24-2025 12:18:54 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 55 - Clicked on Find Provider Page
+11-24-2025 12:18:54 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 55 - Clicked on Find Provider Page
+11-24-2025 12:18:55 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 93 - Clicked on Home Page
+11-24-2025 12:18:55 CommonMethod.java INFO  [TestNG-PoolService-3] base.BaseClass 249 - Fetched text: Home
+11-24-2025 12:18:55 CommonMethod.java INFO  [TestNG-PoolService-1] base.BaseClass 249 - Fetched text: Find a provider
+11-24-2025 12:18:56 CommonMethod.java INFO  [TestNG-PoolService-2] base.BaseClass 249 - Fetched text: Find a provider
+11-24-2025 12:18:56 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 105 - Clicked on Contact US Page
+11-24-2025 12:18:56 CommonMethod.java INFO  [TestNG-PoolService-3] base.BaseClass 249 - Fetched text: Contact us
+11-24-2025 12:18:56 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 67 - Clicked on Select Category filter 
+11-24-2025 12:18:56 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 70 - Category Selected 
+11-24-2025 12:18:56 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 67 - Clicked on Select Category filter 
+11-24-2025 12:18:57 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 70 - Category Selected 
+11-24-2025 12:18:57 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 81 - Clicked on Select Specialty filter 
+11-24-2025 12:18:57 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 84 - Category Selected 
+11-24-2025 12:18:58 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 81 - Clicked on Select Specialty filter 
+11-24-2025 12:18:58 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 84 - Category Selected 
+11-24-2025 12:18:58 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 120 - Clicked on Getting Started Page
+11-24-2025 12:18:58 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 94 - Clicked on city field
+11-24-2025 12:18:58 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 94 - Clicked on city field
+11-24-2025 12:18:59 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 106 - Clicked on Find Providers 
+11-24-2025 12:18:59 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 56 - Scenario Finish :- Verify Find A Provider Page Functionality
+11-24-2025 12:18:59 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 113 - ::::Active Browser is close::::
+11-24-2025 12:18:59 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 115 - ::::All Browser is quit::::
+11-24-2025 12:18:59 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 116 - ::::Browser closed for thread:::: 40
+11-24-2025 12:18:59 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 106 - Clicked on Find Providers 
+11-24-2025 12:18:59 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 56 - Scenario Finish :- Verify Find A Provider Page Functionality
+11-24-2025 12:19:00 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 113 - ::::Active Browser is close::::
+11-24-2025 12:19:00 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 115 - ::::All Browser is quit::::
+11-24-2025 12:19:00 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 116 - ::::Browser closed for thread:::: 41
+11-24-2025 12:19:00 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 134 - Clicked on FAQs Page
+11-24-2025 12:19:52 CommonMethod.java ERROR [TestNG-PoolService-3] base.BaseClass 229 - Could not highlight element: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='templateFind_front']//b[contains(text(),'Find a provider')]"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [711c3dc347ebed4a21eb208101ea4666, findElement {value=//div[@id='templateFind_front']//b[contains(text(),'Find a provider')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 141.0.7390.54 (b95610d5c4a5..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:21592}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:21592/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 711c3dc347ebed4a21eb208101ea4666
+11-24-2025 12:19:52 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 144 - Clicked on Find Provider Page
+11-24-2025 12:19:54 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 157 - Clicked on Announcements Page
+11-24-2025 12:19:54 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 175 - Clicked on DPHHS Website Page
+11-24-2025 12:19:54 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 189 - Clicked on DocDNA Page
+11-24-2025 12:19:54 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 56 - Scenario Finish :- Verify Home Page Functionality
+11-24-2025 12:19:54 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 113 - ::::Active Browser is close::::
+11-24-2025 12:19:55 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 115 - ::::All Browser is quit::::
+11-24-2025 12:19:55 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 116 - ::::Browser closed for thread:::: 42
+11-24-2025 12:31:47 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 53 - ::::Driver launched for thread:::: 41
+11-24-2025 12:31:47 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 53 - ::::Driver launched for thread:::: 40
+11-24-2025 12:31:47 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 53 - ::::Driver launched for thread:::: 42
+11-24-2025 12:31:47 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 22 - ****************LOG STARTING*******************
+11-24-2025 12:31:47 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 22 - ****************LOG STARTING*******************
+11-24-2025 12:31:47 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 22 - ****************LOG STARTING*******************
+11-24-2025 12:31:47 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 23 - Scenario Executing Start :-Verify Home Page Functionality
+11-24-2025 12:31:47 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 23 - Scenario Executing Start :-Verify Find A Provider Page Functionality
+11-24-2025 12:31:47 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 23 - Scenario Executing Start :-Verify Find A Provider Page Functionality
+11-24-2025 12:31:47 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 26 - Application is opended :-Verify Home Page Functionality
+11-24-2025 12:31:49 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 26 - Application is opended :-Verify Find A Provider Page Functionality
+11-24-2025 12:31:50 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 55 - Clicked on Find Provider Page
+11-24-2025 12:31:51 CommonMethod.java INFO  [TestNG-PoolService-2] base.BaseClass 249 - Fetched text: Find a provider
+11-24-2025 12:31:52 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 26 - Application is opended :-Verify Find A Provider Page Functionality
+11-24-2025 12:31:52 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 67 - Clicked on Select Category filter 
+11-24-2025 12:31:53 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 93 - Clicked on Home Page
+11-24-2025 12:31:53 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 70 - Category Selected 
+11-24-2025 12:31:53 CommonMethod.java INFO  [TestNG-PoolService-3] base.BaseClass 249 - Fetched text: Home
+11-24-2025 12:31:53 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 55 - Clicked on Find Provider Page
+11-24-2025 12:31:53 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 81 - Clicked on Select Specialty filter 
+11-24-2025 12:31:53 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 105 - Clicked on Contact US Page
+11-24-2025 12:31:53 CommonMethod.java INFO  [TestNG-PoolService-3] base.BaseClass 249 - Fetched text: Contact us
+11-24-2025 12:31:54 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 84 - Category Selected 
+11-24-2025 12:31:55 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 94 - Clicked on city field
+11-24-2025 12:31:55 CommonMethod.java INFO  [TestNG-PoolService-1] base.BaseClass 249 - Fetched text: Find a provider
+11-24-2025 12:31:56 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 67 - Clicked on Select Category filter 
+11-24-2025 12:31:56 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 106 - Clicked on Find Providers 
+11-24-2025 12:31:56 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 56 - Scenario Finish :- Verify Find A Provider Page Functionality
+11-24-2025 12:31:56 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 113 - ::::Active Browser is close::::
+11-24-2025 12:31:56 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 70 - Category Selected 
+11-24-2025 12:31:56 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 115 - ::::All Browser is quit::::
+11-24-2025 12:31:56 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 116 - ::::Browser closed for thread:::: 41
+11-24-2025 12:31:57 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 81 - Clicked on Select Specialty filter 
+11-24-2025 12:31:57 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 84 - Category Selected 
+11-24-2025 12:31:57 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 120 - Clicked on Getting Started Page
+11-24-2025 12:31:58 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 94 - Clicked on city field
+11-24-2025 12:31:59 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 106 - Clicked on Find Providers 
+11-24-2025 12:31:59 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 56 - Scenario Finish :- Verify Find A Provider Page Functionality
+11-24-2025 12:31:59 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 113 - ::::Active Browser is close::::
+11-24-2025 12:31:59 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 115 - ::::All Browser is quit::::
+11-24-2025 12:31:59 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 116 - ::::Browser closed for thread:::: 40
+11-24-2025 12:32:00 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 134 - Clicked on FAQs Page
+11-24-2025 12:32:51 CommonMethod.java ERROR [TestNG-PoolService-3] base.BaseClass 229 - Could not highlight element: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='templateFind_front']//b[contains(text(),'Find a provider')]"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d090c8858d7280f27a7ad184138b0d9a, findElement {value=//div[@id='templateFind_front']//b[contains(text(),'Find a provider')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 141.0.7390.54 (b95610d5c4a5..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2174}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2174/devtool..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d090c8858d7280f27a7ad184138b0d9a
+11-24-2025 12:32:51 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 144 - Clicked on Find Provider Page
+11-24-2025 12:32:53 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 157 - Clicked on Announcements Page
+11-24-2025 12:32:53 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 175 - Clicked on DPHHS Website Page
+11-24-2025 12:32:53 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 189 - Clicked on DocDNA Page
+11-24-2025 12:32:54 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 56 - Scenario Finish :- Verify Home Page Functionality
+11-24-2025 12:32:54 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 113 - ::::Active Browser is close::::
+11-24-2025 12:32:54 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 115 - ::::All Browser is quit::::
+11-24-2025 12:32:54 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 116 - ::::Browser closed for thread:::: 42
+11-24-2025 12:46:26 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 53 - ::::Driver launched for thread:::: 41
+11-24-2025 12:46:26 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 53 - ::::Driver launched for thread:::: 42
+11-24-2025 12:46:26 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 22 - ****************LOG STARTING*******************
+11-24-2025 12:46:26 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 22 - ****************LOG STARTING*******************
+11-24-2025 12:46:26 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 23 - Scenario Executing Start :-Verify Home Page Functionality
+11-24-2025 12:46:26 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 23 - Scenario Executing Start :-Verify Find A Provider Page Functionality
+11-24-2025 12:46:26 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 53 - ::::Driver launched for thread:::: 40
+11-24-2025 12:46:26 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 22 - ****************LOG STARTING*******************
+11-24-2025 12:46:26 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 23 - Scenario Executing Start :-Verify Find A Provider Page Functionality
+11-24-2025 12:46:27 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 26 - Application is opended :-Verify Find A Provider Page Functionality
+11-24-2025 12:46:31 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 26 - Application is opended :-Verify Find A Provider Page Functionality
+11-24-2025 12:46:32 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 26 - Application is opended :-Verify Home Page Functionality
+11-24-2025 12:46:32 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 55 - Clicked on Find Provider Page
+11-24-2025 12:46:32 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 55 - Clicked on Find Provider Page
+11-24-2025 12:46:33 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 93 - Clicked on Home Page
+11-24-2025 12:46:33 CommonMethod.java INFO  [TestNG-PoolService-3] base.BaseClass 249 - Fetched text: Home
+11-24-2025 12:46:33 CommonMethod.java INFO  [TestNG-PoolService-1] base.BaseClass 249 - Fetched text: Find a provider
+11-24-2025 12:46:34 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 105 - Clicked on Contact US Page
+11-24-2025 12:46:34 CommonMethod.java INFO  [TestNG-PoolService-3] base.BaseClass 249 - Fetched text: Contact us
+11-24-2025 12:46:34 CommonMethod.java INFO  [TestNG-PoolService-2] base.BaseClass 249 - Fetched text: Find a provider
+11-24-2025 12:46:34 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 67 - Clicked on Select Category filter 
+11-24-2025 12:46:34 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 70 - Category Selected 
+11-24-2025 12:46:35 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 67 - Clicked on Select Category filter 
+11-24-2025 12:46:35 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 70 - Category Selected 
+11-24-2025 12:46:35 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 81 - Clicked on Select Specialty filter 
+11-24-2025 12:46:35 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 84 - Category Selected 
+11-24-2025 12:46:36 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 81 - Clicked on Select Specialty filter 
+11-24-2025 12:46:36 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 94 - Clicked on city field
+11-24-2025 12:46:36 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 84 - Category Selected 
+11-24-2025 12:46:36 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 120 - Clicked on Getting Started Page
+11-24-2025 12:46:37 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 94 - Clicked on city field
+11-24-2025 12:46:37 FindProviderPage.java INFO  [TestNG-PoolService-1] base.BaseClass 106 - Clicked on Find Providers 
+11-24-2025 12:46:37 Hooks.java INFO  [TestNG-PoolService-1] base.BaseClass 56 - Scenario Finish :- Verify Find A Provider Page Functionality
+11-24-2025 12:46:37 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 113 - ::::Active Browser is close::::
+11-24-2025 12:46:37 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 115 - ::::All Browser is quit::::
+11-24-2025 12:46:37 BaseClass.java INFO  [TestNG-PoolService-1] base.BaseClass 116 - ::::Browser closed for thread:::: 40
+11-24-2025 12:46:38 FindProviderPage.java INFO  [TestNG-PoolService-2] base.BaseClass 106 - Clicked on Find Providers 
+11-24-2025 12:46:38 Hooks.java INFO  [TestNG-PoolService-2] base.BaseClass 56 - Scenario Finish :- Verify Find A Provider Page Functionality
+11-24-2025 12:46:38 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 113 - ::::Active Browser is close::::
+11-24-2025 12:46:38 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 115 - ::::All Browser is quit::::
+11-24-2025 12:46:38 BaseClass.java INFO  [TestNG-PoolService-2] base.BaseClass 116 - ::::Browser closed for thread:::: 41
+11-24-2025 12:46:38 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 134 - Clicked on FAQs Page
+11-24-2025 12:47:29 CommonMethod.java ERROR [TestNG-PoolService-3] base.BaseClass 229 - Could not highlight element: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='templateFind_front']//b[contains(text(),'Find a provider')]"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f96a34b19f9de5e2c9b75742b74f5954, findElement {using=xpath, value=//div[@id='templateFind_front']//b[contains(text(),'Find a provider')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 141.0.7390.54 (b95610d5c4a5..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57825}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57825/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f96a34b19f9de5e2c9b75742b74f5954
+11-24-2025 12:47:29 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 144 - Clicked on Find Provider Page
+11-24-2025 12:47:31 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 157 - Clicked on Announcements Page
+11-24-2025 12:47:32 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 175 - Clicked on DPHHS Website Page
+11-24-2025 12:47:32 HomePage.java INFO  [TestNG-PoolService-3] base.BaseClass 189 - Clicked on DocDNA Page
+11-24-2025 12:47:32 Hooks.java INFO  [TestNG-PoolService-3] base.BaseClass 56 - Scenario Finish :- Verify Home Page Functionality
+11-24-2025 12:47:32 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 113 - ::::Active Browser is close::::
+11-24-2025 12:47:32 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 115 - ::::All Browser is quit::::
+11-24-2025 12:47:32 BaseClass.java INFO  [TestNG-PoolService-3] base.BaseClass 116 - ::::Browser closed for thread:::: 42
