@@ -50,6 +50,7 @@ public class FindProviderPage extends BaseClass{
 	
 	
 	
+	
 	public void clkOnFindProvider() throws InterruptedException {
 		commonMethod.highLightElementMethod(clkOnFindProvider);
 		commonMethod.clickOnElement(clkOnFindProvider, Constants.EXPLICIT_WAIT_TIME);
