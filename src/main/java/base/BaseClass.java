@@ -10,6 +10,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+// import io.github.bonigarcia.wdm.WebDriverManager;
+
 import utils.Constants;
 import utils.Util;
 
@@ -38,8 +40,11 @@ public class BaseClass {
             WebDriver driver;
 
             if (browser.equalsIgnoreCase("chrome")) {
+                 // No need if using WebDriverManager
+                System.setProperty("webdriver.chrome.driver", ".\\Drivers\\chromedriver.exe");  
+                // No need if using WebDriverManager
+                // WebDriverManager.chromedriver().setup();   
 
-                System.setProperty("webdriver.chrome.driver", ".\\Drivers\\chromedriver.exe");
                 driver = new ChromeDriver();
 
                 driver.manage().window().maximize();
@@ -52,8 +57,11 @@ public class BaseClass {
             }
 
             else if (browser.equalsIgnoreCase("ff")) {
-
+                 // No need if using WebDriverManager
                 System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
+    
+                // WebDriverManager.firefoxdriver().setup(); 
+
                 driver = new FirefoxDriver();
 
                 driver.manage().window().maximize();
@@ -66,8 +74,11 @@ public class BaseClass {
             }
 
             else {
-
+                 // No need if using WebDriverManager
                 System.setProperty("webdriver.edge.driver", ".\\Drivers\\msedgedriver.exe");
+               
+                // WebDriverManager.edgedriver().setup();  
+
                 driver = new EdgeDriver();
 
                 driver.manage().window().maximize();
@@ -81,7 +92,7 @@ public class BaseClass {
 
         } catch (IOException e) {
             log.error("Failed to read 'browser' property file. " + e.getMessage());
-            throw e; // propagate for upper-level handling
+            throw e;
 
         } catch (Exception e) {
             log.error("Browser failed to launch. Details: " + e.getMessage());
